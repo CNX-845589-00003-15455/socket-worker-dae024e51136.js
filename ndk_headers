@@ -1,0 +1,25 @@
+// Will install $MODULE_PATH/include/foo/bar/baz.h to qux/bar/baz.h (relative to
+// $NDK_OUT/sysroot/usr/include).
+ndk_headers {
+    name: "foo",
+
+    // Base directory of the headers being installed. This path will be stripped
+    // when installed.
+    from: "include/foo",
+
+    // Install path within the sysroot.
+    to: "qux",
+
+    // List of headers to install. Relative to the Android.bp. Glob compatible.
+    // The common case is "include/**/*.h".
+    srcs: ["include/foo/bar/baz.h"],
+
+    // If true, makes the headers available to the platform but hides them from
+    // the NDK release. When actively developing an NDK API, `draft` should be
+    // set to true so the API isn't released until it is ready. It can still be
+    // used within the platform and CTS even if it is a draft.
+    //
+    // Note that false is the default, so when releasing an API this line may
+    // simply be removed.
+    draft: true,
+}
