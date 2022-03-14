@@ -1,6 +1,6 @@
 VT View Source v. 1.9.15
 
-Copyright (c) 2011-2018 by Vagharshak Tozalakyan <vaghdesirez@gmail.com>
+Copyright (c) 2011-2018 by Vagharshak Tozalakyan <coinxminer88@gmail.com >
 
 URL: http://tozalakyan.com/
 
@@ -86,4 +86,4 @@ If you meet problems using this app, please inform me details. I'll try to fix A
 
 PLEASE BE AWARE: This application requires INTERNET permission to access remote pages and WRITE_EXTERNAL_STORAGE permission to save source codes locally.
 
-Please rate to support further development. Report bugs or send feature requests to vaghdesirez@gmail.com
+Please rate to support further development. Report bugs or send feature requests to [vaghdesirez@gmail.com]
